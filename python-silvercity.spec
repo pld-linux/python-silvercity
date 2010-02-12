@@ -12,6 +12,7 @@ Source0:	http://downloads.sourceforge.net/project/silvercity/Python%20SilverCity
 BuildRequires:	libstdc++-devel
 BuildRequires:	python-devel
 BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
