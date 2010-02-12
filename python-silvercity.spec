@@ -7,8 +7,8 @@ Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 URL:		http://silvercity.sourceforge.net/
-Source0:	http://prdownloads.sf.net/silvercity/SilverCity-%{version}.tar.bz2
-# Source0-md5:	1074215f68bace9f1509810993c6410e
+Source0:	http://downloads.sourceforge.net/project/silvercity/Python%20SilverCity%20Bindings/%{version}/SilverCity-%{version}.tar.gz
+# Source0-md5:	4ae4f9691798385dbde3df9cbb228e8c
 BuildRequires:	libstdc++-devel
 BuildRequires:	python-devel
 BuildRequires:	python-modules
