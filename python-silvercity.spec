@@ -3,7 +3,7 @@
 Summary:	SilverCity is a lexing package, based on Scintilla
 Name:		python-silvercity
 Version:	0.9.7
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Languages/Python
 URL:		http://silvercity.sourceforge.net/
