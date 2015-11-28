@@ -27,14 +27,11 @@ language bindings for Python.
 %{__sed} -i -e "1i#!%{_bindir}/env python" PySilverCity/Scripts/*.py
 
 %build
-export CFLAGS="%{rpmcflags}"
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 mv $RPM_BUILD_ROOT{%{_bindir}/*.py,%{_examplesdir}/%{name}-%{version}}
